@@ -32,7 +32,7 @@ ul {
 }
 
 .art-1 {
-  background-image: url(img/main-pic1.jpeg);
+  background-image: url(img/main-pic1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 545px;
@@ -41,7 +41,7 @@ ul {
 }
 
 .art-2 {
-  background-image: url(img/main-pic2.png);
+  background-image: url(img/main-pic2.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;

@@ -12,8 +12,49 @@ ul {
   list-style-type: none;
 }
 
+.top-nav {
+  background-color: black;
+  color: white;
+}
+
 .top-nav-right {
   float: right;
   position: relative;
   bottom: 20px;
+  color: white;
+}
+
+.nav-2 {
+}
+
+.main {
+  display: flex;
+}
+
+.art-1 {
+  background-image: url(img/main-pic1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 545px;
+  width: 1300px;
+  color: white;
+}
+
+.art-2 {
+  background-image: url(img/main-pic2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 600px;
+  color: white;
+}
+
+.art-3 {
+  background-image: url(img/main-pic3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 600px;
+  color: white;
 }

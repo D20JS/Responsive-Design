@@ -12,23 +12,37 @@ ul {
   list-style-type: none;
 }
 
+li {
+  padding: 5px;
+}
+
 .top-nav {
   background-color: black;
   color: white;
+  font-size: small;
+  padding-left: 10px;
 }
 
 .top-nav-right {
   float: right;
   position: relative;
-  bottom: 20px;
+  bottom: 25px;
   color: white;
+  font-size: small;
+  padding-right: 10px;
 }
 
 .nav-2 {
+  font-size: small;
+  padding-left: 10px;
 }
 
 .main {
   display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: grey;
 }
 
 .art-1 {
@@ -36,7 +50,7 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   height: 545px;
-  width: 1300px;
+  width: 2000px;
   color: white;
 }
 
@@ -45,7 +59,7 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
-  width: 600px;
+  width: 1000px;
   color: white;
 }
 
@@ -55,6 +69,9 @@ ul {
   background-size: cover;
   flex-wrap: wrap;
   height: 300px;
-  width: 600px;
+  width: 1000px;
   color: white;
+}
+
+@media only screen and (max-width: 375px) {
 }

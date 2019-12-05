@@ -94,6 +94,7 @@ article {
 table {
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 td {
@@ -103,4 +104,5 @@ td {
 .news {
   width: 270px;
   height: 135px;
+  margin: 5px;
 }

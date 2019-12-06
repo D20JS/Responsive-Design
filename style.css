@@ -85,6 +85,11 @@ article {
   margin-top: 10px;
 }
 
+.latest-news {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .news-title {
   position: relative;
   left: 410px;
@@ -92,7 +97,6 @@ article {
 }
 
 .news {
-  width: 270px;
-  height: 135px;
+  width: 25%;
   margin: 5px;
 }

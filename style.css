@@ -96,7 +96,10 @@ article {
   margin-top: 100px;
 }
 
-.news {
+.news-0 {
   width: 25%;
-  margin: 5px;
+}
+
+.news {
+  width: 100%;
 }
